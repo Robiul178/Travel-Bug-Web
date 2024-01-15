@@ -67,10 +67,16 @@ nav li>a {
     background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
     text-align: center;
     background-repeat: no-repeat;
-    padding: 12rem 0;
+    width: 100%;
     color: white;
 }
 
+
+.banner-text,
+.banner-input {
+    position: relative;
+    top: 120px;
+}
 
 .banner-text h1 {
     color: #fff;
@@ -97,4 +103,65 @@ nav li>a {
 .btn {
     background-color: #FF5400;
     color: #fff;
+}
+
+.popular-tour {
+    display: flex;
+    gap: 100px;
+    padding: 4rem 0;
+}
+
+.tour-text {
+    margin-bottom: 30px;
+}
+
+.tour-text,
+p,
+ul {
+    font-size: 18px;
+}
+
+.tour-text h2 {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.tour-text>ul>li {
+    margin-bottom: 30px;
+}
+
+.tour-text ul {
+    margin-left: 2rem;
+}
+
+.btn2 {
+    background-color: #FF5400;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.for-btn {
+    margin-bottom: 15px;
+}
+
+/* Forimage layout */
+/* .destination-container-images {} */
+
+.for-section-1,
+.for-section-2,
+.for-section-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.for-section-1,
+.for-section-2,
+.for-section-3 img {
+    width: 100%;
+}
+
+.destination-container-images img {
+    width: 100%;
 }
