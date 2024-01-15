@@ -165,3 +165,57 @@ ul {
 .destination-container-images img {
     width: 100%;
 }
+
+
+.about-card {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+.card h3 {
+    padding: 1rem 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.card {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-3rd {
+    position: relative;
+    left: 50%;
+}
+
+.card-unik {
+    border-radius: 16px;
+    width: 573px;
+    height: 284px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-inner {
+    padding: 35px;
+}
+
+.about-container-text {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.about-container-text h2 {
+    font-size: 40px;
+    padding: 1rem 0;
+}
