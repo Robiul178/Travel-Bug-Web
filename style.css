@@ -12,6 +12,10 @@ main {
     padding: 2rem 0;
 }
 
+.padding {
+    padding: 1rem 0;
+}
+
 header {
     padding: 2rem 10rem;
 
@@ -218,4 +222,52 @@ ul {
 .about-container-text h2 {
     font-size: 40px;
     padding: 1rem 0;
+}
+
+/* Discount Section */
+.discount-title {
+    text-align: center;
+    padding: 3rem;
+}
+
+.discount-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.discount-secion {
+    background-image: url("/Images/Group\ 39.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.discount-card {
+    position: relative;
+    top: 55px;
+    left: 535px;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.discount-details {
+    padding: 50px;
+}
+
+.discount-icons>ul {
+    display: flex;
+}
+
+.discount-icons>ul>li {
+    list-style: none;
+    padding-bottom: 1rem;
+    margin-right: 2rem;
 }
