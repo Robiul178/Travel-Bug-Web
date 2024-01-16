@@ -60,7 +60,7 @@ nav li>a {
     display: flex;
 }
 
-#travel {
+.nav-container img {
     transform: rotate(-30deg);
 
 }
@@ -76,15 +76,14 @@ nav li>a {
 }
 
 
-.banner-text,
-.banner-input {
+.banner-text {
     position: relative;
     top: 120px;
 }
 
 .banner-text h1 {
     color: #fff;
-    font-size: 44px;
+    font-size: 64px;
     font-weight: 800;
 }
 
@@ -96,8 +95,46 @@ nav li>a {
     padding: 2rem 20px;
 }
 
-.banner-input input,
-.btn {
+.banner-input {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+#common-1st {
+    position: relative;
+    right: 2rem;
+    top: 7px;
+}
+
+#common {
+    margin-top: 7px;
+}
+
+#btn {
+    display: flex;
+    padding: 6px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF5400;
+}
+
+.common img {
+    position: relative;
+    top: .7rem;
+    right: 40px;
+    /* background-color: yellow; */
+    height: 30px;
+    width: 30px;
+}
+
+.common>input img {
+    color: yellow;
+}
+
+.common>input {
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
@@ -236,6 +273,17 @@ ul {
     margin-bottom: 5px;
 }
 
+#discount-secion-right-img {
+    transform: scaleX(-1);
+    background-image: url("/Images/Group\ 39.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
 .discount-secion {
     background-image: url("/Images/Group\ 39.png");
     height: 500px;
@@ -244,6 +292,19 @@ ul {
     background-size: cover;
     width: 100%;
     margin-bottom: 2rem;
+}
+
+#discount-card {
+    transform: scaleX(-90deg);
+    position: relative;
+    top: 55px;
+    left: 535px;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
 }
 
 .discount-card {
@@ -256,6 +317,11 @@ ul {
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
+}
+
+#discount-details {
+    transform: scaleX(-1);
+    padding: 50px;
 }
 
 .discount-details {
