@@ -16,55 +16,6 @@ main {
     padding: 1rem 0;
 }
 
-nav {
-    height: 80px;
-    color: #000;
-    padding: 2rem 12rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-}
-
-nav img {
-    display: none;
-}
-
-.nav-items {
-    display: flex;
-    justify-content: space-between;
-}
-
-.overview {
-    display: flex;
-    margin-right: 4rem;
-}
-
-nav li {
-    list-style: none;
-    margin: 0 1rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: #FF5400;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-#check,
-.menu {
-    display: none;
-}
-
-.nav-items h3 {
-    display: none;
-}
-
-.logo h2 {
-    cursor: pointer;
-}
 
 /* .nav-container img {
     transform: rotate(-30deg);
@@ -128,26 +79,22 @@ nav a {
     bottom: 7px;
 }
 
-#innn {
-    padding: 5px 10px;
-}
 
-.banner-innn input,
-.btnn {
+.banner-innn input {
+    border-radius: 8px;
     border: none;
+    padding: 8px 22px;
 }
 
-.banner-innn div {
-    background-color: white;
-    border-radius: 6px;
-}
 
 #input-btn button {
     background-color: transparent;
+    border: none;
 }
 
 #input-btn {
     background-color: #FF5400;
+    padding: 5px 22px;
     display: flex;
     color: white;
 }
@@ -189,6 +136,7 @@ ul {
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
+    margin-top: 5px;
 }
 
 .for-btn {
@@ -241,7 +189,6 @@ ul {
 
 .card-unik {
     border-radius: 16px;
-    width: 573px;
     height: 284px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
@@ -267,9 +214,10 @@ ul {
 }
 
 /* Discount Section */
+
 .discount-title {
     text-align: center;
-    padding: 3rem;
+    padding: 3rem 3rem;
 }
 
 .discount-title h2 {
@@ -333,14 +281,25 @@ ul {
 }
 
 .discount-icons>ul>li {
+    display: flex;
     list-style: none;
     padding-bottom: 1rem;
     margin-right: 2rem;
 }
 
+.discount-details {
+    padding: 2rem;
+}
+
+
+/* NewsLetter  */
 .newsletter {
     display: flex;
     justify-content: space-between;
+}
+
+.news-img img {
+    width: 100%;
 }
 
 .for-add {
@@ -363,7 +322,6 @@ ul {
 p,
 .button {
     width: 100%;
-    padding: 10px 0;
 }
 
 .button {
@@ -375,7 +333,7 @@ p,
 
 .news-text h1,
 p {
-    margin: 1rem 0;
+    margin: 10px 0;
 }
 
 .for-line {
@@ -384,14 +342,79 @@ p {
     background: rgba(19, 19, 24, 0.10);
 }
 
+.button-forsub {
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 0;
+    background-color: #FF5400;
+    border: none;
+}
 
+.news-text input {
+    width: 96%;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 0;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
 
+.div-1,
+.div-2,
+.div-3,
+.div-4,
+.div-5,
+.div-6,
+.div-7 {
+    padding: .5rem .5rem;
+}
 
+.image-container img {
+    width: 100%;
+}
 
+.first-column,
+.last-column,
+.middle-column {
+    display: flex;
+    justify-content: space-between;
+}
 
+footer {
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 3rem;
+    text-align: center;
 
+}
 
+.footer-container {
+    position: relative;
+    top: 110px;
+}
 
+.for-footer-line {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    position: relative;
+    left: 20rem;
+    top: 3rem;
+}
+
+.footer-logo h2 {
+    font-size: 36px;
+}
+
+.footer-container p {
+    padding: 15px 0;
+}
+
+.footer-last-section {
+    position: relative;
+    top: 4rem;
+}
 
 
 
@@ -404,59 +427,6 @@ p {
 /* @media screen and (min-width:567px) and (max-width:970px)  */
 
 @media screen and (max-width:600px) {
-
-    /* 
-    .nav-items {
-        position: relative;
-        top: 0;
-        right: 0;
-        width: 250px;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding: 2rem;
-        right: 250px;
-        transition: all ease-in-out 500ms;
-    }
-
-    .overview {
-        flex-direction: column;
-        width: auto;
-        margin: 0;
-    }
-
-    .nav-items h3 {
-        text-transform: uppercase;
-        font-size: 13px;
-        margin-bottom: 1rem;
-    }
-
-    .menu img {
-        display: inline-block;
-        cursor: pointer;
-        vertical-align: top;
-    }
-
-
-
-    /* nav a:hover {
-        margin-left: 2px;
-        transition: all ease-in-out 300ms;
-    } */
-
-
-    /*  .menu {
-        display: inline-block;
-        position: fixed;
-        right: 2.5rem;
-        z-index: 99;
-    }
-
-    #check:checked~.nav-items {
-        right: 0;
-    }
-
-    */
-
 
 
     .banner-innn {
@@ -514,8 +484,60 @@ p {
         padding: 10px;
     }
 
-    .discount-details {
+
+    /* Discount Section  */
+    .discount-secion {
+        height: 500px;
+    }
+
+    .discount-card {
         position: relative;
+        top: 150px;
+        left: 16px;
+        width: 320px;
+        height: 310px;
+    }
+
+    .ellipsis {
+        width: 300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #discount-details {
+        position: relative;
+        bottom: 4rem;
+        left: 2rem;
+    }
+
+    .discount-details h3 {
+        margin: 0;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .first-column,
+    .last-column,
+    .middle-column {
+        flex-direction: column;
+    }
+
+    .for-footer-line {
+        position: absolute;
+    }
+
+    .for-footer-line {
+        width: 400px;
+        height: 1px;
+        background: rgba(19, 19, 24, 0.10);
+        position: relative;
+        left: 2rem;
+        top: 3rem;
+
     }
 
 }
