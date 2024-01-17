@@ -467,9 +467,18 @@ footer {
     top: 4rem;
 }
 
+.for-70 h2 {
+    padding: 5px;
+}
 
-
-
+.for-70 {
+    height: 70px;
+    width: 170px;
+    background-color: #FF5400;
+    border-radius: 5px;
+    position: absolute;
+    right: 11rem;
+}
 
 
 
